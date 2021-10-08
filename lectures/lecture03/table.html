@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section>
+      <table width="700px">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+            <th>Phone</th>
+            <th>Company</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>John Smith</td>
+            <td>52</td>
+            <td>Male</td>
+            <td>Macedonia</td>
+            <td>070855855</td>
+            <td>Google</td>
+            <td><a href="https://google.com">Visit our page</a></td>
+          </tr>
+
+          <tr>
+            <td>James Smith</td>
+            <td>88</td>
+            <td>Male</td>
+            <td>USA</td>
+            <td>07545826594</td>
+            <td>Facebook</td>
+            <td><a href="http://www.facebook.com">Visit Facebook</a></td>
+          </tr>
+
+          <tr>
+            <td>James Smith</td>
+            <td>88</td>
+            <td>Male</td>
+            <td>USA</td>
+            <td>07545826594</td>
+            <td>Facebook</td>
+            <td><a href="http://www.facebook.com">Visit Facebook</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <table width="700px">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+            <th>Phone</th>
+            <th>Company</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody style="background-color: yellow;">
+          <tr style="background-color: green;">
+            <td rowspan="2" style="background-color: gray">John Smith</td>
+            <td>52</td>
+            <td>Male</td>
+            <td>Macedonia</td>
+            <td>070855855</td>
+            <td>Google</td>
+            <td><a href="https://google.com">Visit our page</a></td>
+          </tr>
+
+          <tr>
+            <!-- <td>James Smith</td> -->
+            <td>88</td>
+            <td>Male</td>
+            <td colspan="2" style="background-color: red;">USA</td>
+            <!-- <td>07545826594</td> -->
+            <td>Facebook</td>
+            <td><a href="http://www.facebook.com">Visit Facebook</a></td>
+          </tr>
+
+          <tr>
+            <td>James Smith</td>
+            <td>88</td>
+            <td>Male</td>
+            <td>USA</td>
+            <td>07545826594</td>
+            <td>Facebook</td>
+            <td><a href="http://www.facebook.com">Visit Facebook</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Level1</th>
+            <th>Level2</th>
+            <th>Level3</th>
+            <th>Info</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">System Apps</td>
+            <td rowspan="3">SystemEnv</td>
+            <td>App Test</td>
+            <td>foo</td>
+          </tr>
+          <tr>
+            <td>App Memory</td>
+            <td>foo</td>
+          </tr>
+          <tr>
+            <td>App Test</td>
+            <td>bar</td>
+          </tr>
+          <tr>
+            <td>SystemEnv 2</td>
+            <td>App Test</td>
+            <td>bar</td>
+          </tr>
+          <tr>
+            <td rowspan="2">System Memory</td>
+            <td rowspan="2">Memory Test</td>
+            <td>Memory Fuc</td>
+            <td>foo</td>
+          </tr>
+          <tr>
+            <td>Apes Test</td>
+            <td>foo</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
