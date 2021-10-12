@@ -1,0 +1,59 @@
+.section {
+  height: 350px;
+  background-color:gray;
+}
+
+#section-1 {
+  background-color:lavender;
+}
+
+#section-2 {
+  background-color:cadetblue;
+}
+
+#section-3 {
+  background-color:darksalmon;
+}
+
+h1 {
+  color: blue;
+  font-size: 40px;
+  background-color: yellow;
+}
+
+button {
+  background-color:cyan;
+  font-size: 18px;
+  width: 175px;
+  height: 42px;
+  /* text-align: center; */
+}
+
+.btn {
+  font-size: 14px;
+  width: 160px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  /* text-align: right; */
+}
+
+.btn-secondary {
+  background-color: lightblue;
+  /* text-align: right; */
+}
+
+.btn-submit {
+  background-color: green;
+  /* text-align: right */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
