@@ -1,0 +1,33 @@
+.container {
+  display: inline-block;
+  padding: 30px;
+}
+
+.left {
+  float: left;
+  width: 350px;
+  background-color: red;
+  color: white;
+  padding-left: 20px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  /* padding: 10px 35px 15px 20px; */
+
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  padding: 10px 20px; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right {
+  float: right;
+  width: 350px;
+  background-color: green;
+  color: white;
+  margin-left: 20px;
+}
