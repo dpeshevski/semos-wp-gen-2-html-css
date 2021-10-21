@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="section-login">
+    <div class="container flex justify-content-space-around">
+      <div class="flex flex-column justify-content-space-between align-items-center">
+        <img class="image" src="image/login.png" atl="Login image">
+        <a href="sign-up.html">Create an account</a>
+      </div>
+      <div class="flex flex-column justify-content-space-between">
+        <div class="title">
+          <h2>Login</h2>
+        </div>
+        <div class="form flex flex-column">
+          <!-- <label for="email">Email</label> -->
+          <i class="fas fa-user"></i>
+          <input type="email" name="email" id="email" placeholder="Type yout email address">
+  
+          <!-- <label for="password">Password</label> -->
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" id="password" placeholder="Type your password">
+  
+          <div class="flex align-items-center">
+            <input type="checkbox" name="rememberMe" id="rememberMe" class="m-r-10">
+            <label for="rememberMe">Remember me</label>
+          </div>
+  
+          <button class="btn btn-primary align-self-flex-start p-x-30 p-y-10" type="submit">Log in</button>
+        </div>
+        <div class="options">
+          <span>Or login with</span>
+  
+          <button class="btn btn-secondary" type="submit">Facebook</button>
+          <button class="btn btn-secondary" type="submit">Instagram</button>
+          <button class="btn btn-secondary" type="submit">Google</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
