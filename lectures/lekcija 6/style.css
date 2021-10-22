@@ -1,0 +1,59 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem; /*1rem=16px*/
+    /* font-weight:  700;   debelina na font n shit*/
+
+}  
+html{
+    height: 850px;
+}  
+
+.main-element{
+position:static;
+left: 10px;
+bottom: 10px;
+background-color: yellow;
+padding: 10px;
+}
+.sibling-element{
+    padding: 10px;
+    background-color: #6f07b4e1;    
+}
+
+.main-element{
+    position:relative;
+left: 10px;
+bottom: 10px;
+background-color: yellow;
+padding: 10px;
+}
+.main-element{
+    position:absolute;}
+
+.parent-element{
+    position: relative;
+}
+.sibling-element{
+    border: 2px solid #17a8eb;
+}
+.main-element{
+    position: sticky;
+    top:10px;
+    left: 0;
+    bottom: 0;
+
+}
+.parent-element{
+    position: relative;
+    height: 800px;
+    padding: 50px 10px;
+    background-color: hotpink;
+
+}
