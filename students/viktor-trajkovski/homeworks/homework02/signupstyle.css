@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body
+{
+    background-color: darkgray;
+}
+
+ section .container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: transparent;
+    
+}
+section .container .box
+{
+    height: 600px;
+    width: 1000px;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+   
+    
+}
+
+section .container .box h1
+{
+    text-align: left;
+    font-weight: 800;
+    font-size: 2.5em;
+    padding-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+section .container .box .formbox .InputBox 
+{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+   
+}
+section .container .box .formbox .agree 
+{
+    background-color: white;
+    padding-left: 100px;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+section .container .box .formbox .agree a
+{
+    color: cornflowerblue;
+}
+section .container .box .formbox .InputBox input
+{
+    border: none;
+    border-bottom: 0.5px solid black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+section .container .box .formbox .InputBox input[type="submit"]
+{
+    background-color: cornflowerblue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-top: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    border-left: 1px solid cornflowerblue;
+    border-right: 1px solid cornflowerblue;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+section .container .box .formbox .InputBox input[type="submit"]:hover
+{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+section .container .box .imgbox 
+{
+    position: relative;
+}
+section .container .box .imgbox img
+{
+    position: absolute;
+    width: 55%;
+    display: block;
+    margin-left: 450px;
+    margin-bottom: 1050px;
+    
+}
